@@ -1,5 +1,7 @@
 # mona-seo-check
 
+[![test](https://github.com/themonagroup/mona-seo-check-vi/actions/workflows/test.yml/badge.svg)](https://github.com/themonagroup/mona-seo-check-vi/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Công cụ dòng lệnh (CLI) chấm điểm SEO on-page cho một bài viết tiếng Việt. Đưa vào 1 file HTML, 1 file Markdown, hoặc 1 đường link bài viết đã đăng, cộng với từ khóa chính đang nhắm tới — công cụ đọc toàn bộ nội dung, đếm số liệu thật (số ký tự title, số ký tự mô tả, mật độ từ khóa, độ dài câu, cấu trúc heading...) và trả về một bảng kết quả rõ ràng: mục nào đạt, mục nào chưa đạt, mục nào cần cảnh báo, và mục nào máy không tự chấm được nên phải nhờ người đọc lại.
 
 ## Vì sao cần công cụ này
