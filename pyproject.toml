@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mona-seo-check"
+version = "0.1.0"
+description = "CLI chấm on-page SEO một bài viết tiếng Việt theo checklist tự động (title, meta, mật độ từ khóa, cấu trúc heading, câu văn tự nhiên...)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "The MONA Group", email = "opensource@mona.media" },
+]
+keywords = ["seo", "vietnamese", "cli", "content-audit", "on-page-seo"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.optional-dependencies]
+html = ["beautifulsoup4>=4.12"]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/themonagroup/mona-seo-check-vi"
+Source = "https://github.com/themonagroup/mona-seo-check-vi"
+
+[project.scripts]
+mona-seo-check = "mona_seo_check.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
