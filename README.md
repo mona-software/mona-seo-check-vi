@@ -1,6 +1,6 @@
 # mona-seo-check
 
-[![test](https://github.com/themonagroup/mona-seo-check-vi/actions/workflows/test.yml/badge.svg)](https://github.com/themonagroup/mona-seo-check-vi/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![test](https://github.com/mona-software/mona-seo-check-vi/actions/workflows/test.yml/badge.svg)](https://github.com/mona-software/mona-seo-check-vi/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Công cụ dòng lệnh (CLI) chấm điểm SEO on-page cho một bài viết tiếng Việt. Đưa vào 1 file HTML, 1 file Markdown, hoặc 1 đường link bài viết đã đăng, cộng với từ khóa chính đang nhắm tới — công cụ đọc toàn bộ nội dung, đếm số liệu thật (số ký tự title, số ký tự mô tả, mật độ từ khóa, độ dài câu, cấu trúc heading...) và trả về một bảng kết quả rõ ràng: mục nào đạt, mục nào chưa đạt, mục nào cần cảnh báo, và mục nào máy không tự chấm được nên phải nhờ người đọc lại.
 
@@ -148,4 +148,8 @@ Install: `pip install -e .` (Python 3.10+, standard library only; `pip install -
 Usage: `mona-seo-check <file-or-url> --keyword "<primary keyword>" [--secondary "kw1, kw2"] [--url] [--json] [--ascii]`. Exits with code 1 if any check fails, 0 otherwise. Run tests with `pip install -e ".[dev]" && pytest`.
 
 ---
-Từ MONA — https://mona.media · Các repo khác: https://github.com/themonagroup · Hub mã nguồn mở: https://mona.media/mona-open/
+Từ MONA — https://mona.media · Các repo khác: https://github.com/mona-software · Hub mã nguồn mở: https://mona.media/mona-open/
+
+**`mona-seo-check` is a product of MONA Software, a member of The MONA Group.**
+
+**`mona-seo-check` là sản phẩm của MONA Software, thành viên The MONA Group.**
